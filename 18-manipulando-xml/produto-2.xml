@@ -1,0 +1,10 @@
+<loja>
+  <produto id="101">
+    <nome>Notebook Gamer</nome>
+    <preco moeda="USD">1200</preco>
+  </produto>
+  <produto id="102">
+    <nome>Smartphone</nome>
+    <preco moeda="BRL">3000</preco>
+  </produto>
+</loja>

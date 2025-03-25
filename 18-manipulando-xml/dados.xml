@@ -1,0 +1,12 @@
+<pessoas>
+  <pessoa>
+    <nome>Alice</nome>
+    <idade>30</idade>
+    <profissao>Engenheira</profissao>
+  </pessoa>
+  <pessoa>
+    <nome>Bob</nome>
+    <idade>25</idade>
+    <profissao>Desenvolvedor</profissao>
+  </pessoa>
+</pessoas>
