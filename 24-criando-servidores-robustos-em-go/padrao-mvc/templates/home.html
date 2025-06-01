@@ -1,0 +1,27 @@
+<!-- templates/home.html -->
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8" />
+    <title>Lista de Usuários</title>
+</head>
+<body>
+    <h1>Usuários Cadastrados</h1>
+
+    <ul>
+        {{- /* Itera sobre o slice de User passado pelo controller → contexto é []models.User */ -}}
+        {{- range . }}
+            <li>
+                <strong>Nome:</strong> {{ .Name }}<br />
+                <strong>Email:</strong> {{ .Email }}
+            </li>
+        {{- else }}
+            <li><em>Nenhum usuário cadastrado.</em></li>
+        {{- end }}
+    </ul>
+
+    <p>
+        <a href="/add">Adicionar Novo Usuário</a>
+    </p>
+</body>
+</html>
